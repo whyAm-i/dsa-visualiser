@@ -1,6 +1,7 @@
 # Data Structure Analyser
 
-A full-stack web application to visualize and interact with various data structures. 
+A full-stack web application to visualize and interact with various data structures.
+Note : Only Data structures are implemented currently, but algorithms will be implemented in future.
 
 ## Features
 - **Supported Data Structures**: Array, Tuple, Linked List, Heap, Stack, Queue.
@@ -19,7 +20,7 @@ Run the following commands from the project root directory to start both the bac
 python -m venv .venv
 source .venv/bin/activate
 pip install flask flask-cors
-python main.py &
+python main.py
 
 # 2. Setup and start the React frontend
 cd frontend
